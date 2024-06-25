@@ -1,5 +1,7 @@
 name: CI
-
+name: Deploy Nightly
+uses: WebFreak001/deploy-nightly@v3.1.0
+            
 on:
   push:
   pull_request:
